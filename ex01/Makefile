@@ -1,5 +1,5 @@
 flags = -Wall -Wextra -Werror -std=c++98 -g
-name=MwIguIwtbab
+name = Form
 
 all:
 	@clear
@@ -12,7 +12,7 @@ fclean:
 	@clear
 	@echo Sto cancellando...
 	@-rm -f $(name)
-	@-rm -rf MwIguIwtbab.dSYM
+	@-rm -rf Form.dSYM
 	@sleep 0.4
 	@echo Fatto ✓
 
