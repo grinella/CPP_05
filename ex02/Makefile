@@ -12,7 +12,7 @@ fclean:
 	@clear
 	@echo Sto cancellando...
 	@-rm -f $(name)
-	@-rm -rf Form.dSYM
+	@-rm -rf 28B_not28C.dSYM
 	@-rm -rf home_shrubbery
 	@sleep 0.4
 	@echo Fatto ✓

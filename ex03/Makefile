@@ -12,7 +12,7 @@ fclean:
 	@clear
 	@echo Sto cancellando...
 	@-rm -f $(NAME)
-	@-rm -rf Garden_shrubbery
+	@-rm -rf intern_program.dSYM
 	@sleep 0.4
 	@echo Done ✓
 
