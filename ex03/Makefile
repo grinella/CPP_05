@@ -6,7 +6,7 @@ all:
 	@echo Sto creando gli oggetti...
 	@c++ $(FLAGS) *.cpp -o $(NAME)
 	@sleep 0.2
-	@echo Done ✓
+	@echo Fatto ✓
 
 fclean:
 	@clear
@@ -14,6 +14,6 @@ fclean:
 	@-rm -f $(NAME)
 	@-rm -rf Garden_shrubbery
 	@sleep 0.4
-	@echo Done ✓
+	@echo Fatto ✓
 
 re: fclean all
